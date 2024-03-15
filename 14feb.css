@@ -1,0 +1,77 @@
+ * {
+    box-sizing: border-box;
+    margin: 0px;
+     padding: 0px;  
+} 
+
+div {
+
+    height: 100px;
+    width: 100vw;
+    border: 2px solid red;
+    font-size: 50px;
+    visibility: hidden;
+}
+
+.comp {
+    background-color: aquamarine;
+
+}
+
+.lap {
+    background-color: blueviolet;
+
+}
+
+.tab {
+    background-color: brown;
+}
+
+.smart {
+    background-color: aqua;
+}
+
+@media (max-width:1440px) {
+    .comp {
+  visibility: visible;
+    }
+}
+
+@media(max-width:1024px) {
+    .lap {
+        visibility: visible;
+    }
+}
+
+@media(max-width:1440px) {
+    .tab {
+        visibility: visible;
+    }
+}
+
+@media(max-width:425px) {
+    .smart {
+        visibility: visible;
+    }
+}
+/* / :visited
+:hover
+:active  */
+a{
+    font-size: 40px;
+    color: black;
+    background-color: blanchedalmond;
+    border: 2px solid red;
+}
+a:active{
+    color: rgb(195, 235, 16);
+}
+a:hover{
+    font-size: 30px;
+    color: red;
+}
+a:visited{
+    color:rgb(74, 25, 253);
+}
+
+

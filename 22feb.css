@@ -1,0 +1,55 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+#akhil{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: brown;
+    font-size: x-large;
+    animation-name: bounce;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+}
+@keyframes bounce
+{
+    0%{
+        transform: translate(300px,900px);
+    }
+}
+
+#tha{
+    border: 1px solid black;
+    width: 200px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: aqua;
+    font-size: x-large;
+    animation-name: bounce;
+    animation-duration: 2000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes bounce
+{
+    0%{
+        transform: translate(300px,900px);
+    }
+        100%{
+            transform: translate(20px,80px);
+        }
+    }
+    
